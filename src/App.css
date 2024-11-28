@@ -1,0 +1,38 @@
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table:last-child  {
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-inline: auto;
+    /* background: #000; */
+}
+
+table:last-child td {
+    border: 2px solid rebeccapurple;
+    width: 35px;
+    height: 35px;
+    background: rgba(102, 51, 153, 0.671);
+    transition: 0.4s ease;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+table:last-child td:hover {
+    transform: translateY(4px);
+}
